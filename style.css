@@ -559,7 +559,7 @@ input[type="checkbox"]:checked+.customCheckboxLabel::after {
 }
 
 .service .left .PurchaseService .counter> :last-child button {
-    width: 100%;
+    width: 185px;
     height: 45px;
     background-color: #1DBF73;
     border-radius: 10px;
@@ -1286,6 +1286,9 @@ float: left;
     }
 }
 @media (min-width: 0px) and (max-width: 550px) {
+    .service .left .ServiceRating .newComment :last-child {
+    width: 100% !important;
+}
     .ServiceRating .details div{
         width: 100% !important;
         /* float: left; */
