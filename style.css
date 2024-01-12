@@ -1285,6 +1285,41 @@ float: left;
         margin-top: 180vh;
     }
 }
+@media (min-width: 0px) and (max-width: 550px) {
+    .ServiceRating .details div{
+        width: 100% !important;
+        /* float: left; */
+    }
+    .ServiceRating .details .FDIV{
+        display: block !important;
+    }
+    .ServiceRating .details div p{
+    width: 50% !important;
+    float: left;
+    white-space: nowrap;
+    /* display: none; */
+    }
+    .ServiceRating .details div .stars{
+    width: 50% !important;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    .ServiceRating .details div:nth-child(3){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .service .left .ServiceRating .details .w3-light-grey{
+        width: 400px !important;
+        
+    }
+ 
+
+}
 
 /*  */
 .bi-star-fill {
